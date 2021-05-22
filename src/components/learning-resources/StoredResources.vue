@@ -12,11 +12,7 @@
 <script>
 import LearningResource from './LearningResource';
 export default {
-    props: {
-        resources: {
-            type:Array
-        },
-    },
+    inject: ['resources'],
     components: {
         LearningResource,
     },
